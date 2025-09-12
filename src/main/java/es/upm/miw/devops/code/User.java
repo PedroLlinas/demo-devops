@@ -24,4 +24,12 @@ public class User {
         this.name = name;
         this.familyName = familyName;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", familyName='" + familyName + '\'' +
+                '}';
+    }
 }
