@@ -5,6 +5,8 @@ public class User {
     private String familyName;
     private String email;
 
+    
+
     public User(String name, String familyName, String email) {
         this.name = name;
         this.familyName = familyName;
